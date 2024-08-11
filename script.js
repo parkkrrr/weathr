@@ -10,7 +10,7 @@ async function fetchWeather(search) {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '871c5558e2msh061917794bd9f6ap1df128jsn3687aef08fea',
+            'x-rapidapi-key': api_key,
             'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com'
         }
     };
